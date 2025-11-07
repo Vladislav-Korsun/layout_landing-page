@@ -1,0 +1,26 @@
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+
+  @include onTablet{
+    padding-block: 32px;
+  }
+
+  &__logo{
+    display: flex;
+    &--image{
+      width: 125px;
+
+      @include onTablet{
+        width: 172px;
+      }
+    }
+  }
+
+  &__icons{
+    display: flex;
+    gap: 24px;
+  }
+}

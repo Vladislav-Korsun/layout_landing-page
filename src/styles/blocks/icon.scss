@@ -1,0 +1,28 @@
+.icon{
+  display: block;
+  width: $icon-size;
+  height: $icon-size;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s;
+
+  @include onTablet{
+    height: 32px;
+    width: 32px;
+  }
+
+  &--phone{
+    background-image: url(../images/icons/Icon-Phone-call.png);
+  }
+  &--menu{
+    background-image: url(../images/icons/Icon-Burger-menu.png);
+
+    &:hover{
+      background-image: url(../images/icons/Icon-Burger-menu-hover.png);
+    }
+  }
+
+  &--close{
+    background-image: url(../images/icons/Icon-Close.png);
+  }
+}
