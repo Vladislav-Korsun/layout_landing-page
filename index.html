@@ -57,16 +57,16 @@
           <div class="nav menu__nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a class="nav__link" href="#">Products</a>
+                <a class="nav__link" href="#Products">Products</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#">Store</a>
+                <a class="nav__link" href="#Store">Store</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#">Login</a>
+                <a class="nav__link" href="#Login">Login</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#">Cart (0)</a>
+                <a class="nav__link" href="#Cart">Cart (0)</a>
               </li>
             </ul>
           </div>
@@ -199,7 +199,7 @@
       <section class="contacts">
         <h2 class="section-title">Contact us</h2>
         <div class="contacts__wrapper">
-          <form class="contacts__form">
+          <form class="contacts__form" id="contactForm">
 
             <input
               type="text"
@@ -228,15 +228,18 @@
           <div class="contacts__info">
             <div class="contacts__info--block">
               <h4 class="contacts__info--title">Phone</h4>
-              <p class="contacts__info--text">+1 234 5555-55-55</p>
+              <a href="tel:+1 234 5555-55-55" class="contacts__info--text">+1 234 5555-55-55</a>
             </div>
             <div class="contacts__info--block">
               <h4 class="contacts__info--title">Email</h4>
-              <p class="contacts__info--text">hello@nothing.com</p>
+              <a href="mailto: hello@nothing.com" class="contacts__info--text">hello@nothing.com</a>
             </div>
             <div class="contacts__info--block">
               <h4 class="contacts__info--title">Address</h4>
-              <p class="contacts__info--text">400 first ave.<br>suite 700M<br>inneapolis, MN 55401</p>
+              <a
+              href="https://www.google.com/maps?q=400+first+ave+suite+700M+Minneapolis+MN+55401"
+              class="contacts__info--text"
+              >400 first ave.<br>suite 700M<br>inneapolis, MN 55401</a>
             </div>
           </div>
         </div>

@@ -10,6 +10,13 @@
 
   &__logo{
     display: flex;
+
+    transition: transform 0.3s;
+
+    &:hover{
+      transform: scale(1.2);
+    }
+
     &--image{
       width: 125px;
 

@@ -21,6 +21,8 @@
 
   &__link{
     position: relative;
+    transition: transform 0.3s;
+
     &--wide{
       @include onTablet{
         grid-column: span 4;
@@ -29,6 +31,11 @@
       @include onDesktop{
         grid-column: span 8;
       }
+    }
+
+    &:hover{
+      transform: scale(1.05);
+       z-index: 1;
     }
 
     &--square{

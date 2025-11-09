@@ -57,6 +57,7 @@
     font-size: 14px;
     border: none;
     height: 148px;
+    resize: none;
 
     &:hover{
       border: 1px solid $hover-border-color;
@@ -109,6 +110,7 @@
       margin: 0;
       height: 100%;
       color: $info-text-color;
+      text-decoration: none;
     }
   }
 }
