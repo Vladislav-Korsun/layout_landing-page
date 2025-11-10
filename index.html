@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
@@ -29,7 +30,7 @@
             class="top-bar__logo--image" >
           </a>
           <div class="top-bar__icons">
-            <a href="#" class="icon icon--phone"></a>
+            <a href="tel:+1 234 5555-55-55s" class="icon icon--phone"></a>
             <a href="#menu" class="icon icon--menu"></a>
           </div>
         </div>
@@ -57,16 +58,16 @@
           <div class="nav menu__nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a class="nav__link" href="#Products">Products</a>
+                <a class="nav__link" href="#recommended">Products</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#Store">Store</a>
+                <a class="nav__link" href="#categories">Store</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#Login">Login</a>
+                <a class="nav__link" href="#about-us">Login</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#Cart">Cart (0)</a>
+                <a class="nav__link" href="#contacts">Cart (0)</a>
               </li>
             </ul>
           </div>
@@ -199,7 +200,7 @@
       <section class="contacts">
         <h2 class="section-title">Contact us</h2>
         <div class="contacts__wrapper">
-          <form class="contacts__form" id="contactForm">
+          <form class="contacts__form" onsubmit="this.reset(); return false;">
 
             <input
               type="text"
